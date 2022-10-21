@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #08c;
+        }
+        .animasi{
+            width: 350px;
+            height: 150px;
+            background: #08c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: change-bg;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes change-bg{
+            from{
+                background-color: #08c;
+            }
+            to{
+                background: #0fff00;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="animasi"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #08c;
+        }
+
+        .translate {
+            width: 400px;
+            height: 200px;
+            background: #08c;
+            cursor: pointer;
+            transition: 1.5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .translate:hover{
+            transform: translate(0px, -100px);
+            background: red;
+        }
+        .rotate{
+            width: 400px;
+            height: 200px;
+            background: #08c;
+            transition: 2s;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .rotate:hover{
+            transform: rotate(96000000000000000000000deg);
+            background: aqua;
+        }
+        .scale{
+            width: 400px;
+            height: 200px;
+            background: bisque;
+            transition: 2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .scale:hover{
+            transform: scale(200,200);
+            background: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ]
+        Transform ada 2 
+        1. 2d
+            - translate
+            - Rotate
+            - Scale
+            - Skew
+            - Matriks
+        2. 3d
+            -Rotate
+        -->
+
+    <!-- Contoh animasi translate -->
+    <div class="container">
+        <div class="translate">translate hover</div>
+    </div>
+    <div class="container">
+        <div class="rotate">rotate hover</div>
+    </div>
+    <div class="container">
+        <div class="scale">scale hover</div>
+    </div>
+
+    <a href="#" class="btn-login"></a>
+    <a href="#" id="btn-login"></a>
+</body>
+
+</html>

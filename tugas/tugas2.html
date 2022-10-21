@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+    }
+
+    .navbar {
+        width: 100%;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgb(19, 151, 233);
+        font-family: 'Courier New', Courier, monospace;
+        display: inline-flex;
+    }
+
+    .navbar ul {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .training li {
+        margin: 20px;
+        justify-content: space-between;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #fff;
+        margin: 20px;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .list1 li {
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    li a:hover {
+        color: bisque;
+        transition: 0.3s;
+    }
+
+    .brand h4 {
+        color: #fff;
+    }
+
+    .daftar {
+        color: white;
+        font-size: 8px;
+        text-align: end;
+    }
+
+    .training {
+        justify-content: flex-start;
+    }
+
+    .kanan {
+        width: 25%;
+        height: 87vh;
+        background: red;
+    }
+
+    .kanan li {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        list-style: none;
+        color: white;
+    }
+
+    .footer {
+        background-color: rgb(19, 151, 233);
+        text-align: center;
+        padding: 10px;
+        font-size: 8px;
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="training">
+            <h4>IDN Training</h4>
+        </div>
+        <ul class="list1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="daftar">
+            <h1>Daftar Sekarang</h1>
+        </div>
+    </div>
+    <div class="kanan">
+        <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>About</li>
+            <li>Contact Me</li>
+        </ul>
+    </div>
+    <footer class="footer">
+        <h1>copyright @ shandome</h1>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://images.unsplash.com/photo-1602874352191-284c5a6c2770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVhY2VmdWwlMjBsYWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover
+        }
+
+        .header {
+            width: 60vw;
+            height: 60vh;
+            background-color: white;
+            justify-content: center;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <fieldset style="border: 0px;">
+                <legend style="margin-left: 20px;">
+                    <p>
+                        <label>NamaLengkap</label><br>
+                        <input type="text" name="nama">
+                    </p>
+                    <p>
+                        <label>Email</label><br>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Password</label><br>
+                        <input type="password" name="password">
+                    </p>
+                    <p>
+                        <label>About</label><br>
+                        <input type="text" name="text" style="width: 30vw; height: 30vh;">
+                    </p>
+                </legend>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>

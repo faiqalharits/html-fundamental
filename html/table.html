@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        tag table
+        1. thead
+        2. body
+        3. tfoot
+        4. theader
+        5. tr
+        6. th
+        7. td
+     -->
+
+    <!-- row ke samping dan colum ke bawah -->
+
+    <table border="5" style="background-color: #5F9DF7; width: 50%;" cellpadding="10">
+        <thead>
+            <th>NO</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Faiq</td>
+                <td>XI Rpla</td>
+            </tr>
+            <tr>
+                <td style="background-color: #fff000;">2</td>
+                <td style="width: 50%; background-color: antiquewhite;">Faiq</td>
+                <td>XI Rpla</td>
+            </tr>
+        </tbody>
+        <!-- 
+                rowspan = baris digabung
+                colspan = kolom yang di gabung
+            -->
+    </table>
+    <hr>
+    <table border="1" style="width: 30%; height: 500px;" >
+        <tbody>
+            <tr>
+                <td colspan="2" bgcolor="red"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="3" bgcolor="yellow"></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

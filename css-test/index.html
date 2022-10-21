@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background-color: #08c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-fluid{
+        width: 100vw;
+        height: 100vh;
+        background-color: #08c;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .item {
+        width: 200px;
+        height: 50px;
+        background: #f9f9f9;
+        margin: 10px;
+    }
+
+    .wrap {
+        width: 80%;
+        height: 500px;
+        background: #fff;
+        display: flex;
+        flex-wrap: wraps;
+    }
+
+    .block {
+        width: 400px;
+        height: 100px;
+        background: #7e7e7e;
+        margin: 10px;
+    }
+    .area{
+        width: 80%;
+        height: 200px;
+        margin: 10px;
+        border: 3px solid #8ed3ee;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .brand{
+        width: 200px;
+        height: 100px;
+        background: #f00;
+    }
+    .search{
+        width: 200px;
+        height: 100px;
+        background: #ff0;
+    }
+    .login{
+        width: 200px;
+        height: 100px;
+        background: #f9f9f9
+    }
+</style>
+
+<body>
+    <!--
+         Flexbox vs Gris 
+    -->
+    <!-- Flex Box atau flex -->
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <!-- Flex Direction
+        - Row (default) : Item akan tampil horizontal kiri ke kanan 
+        - row-reverse : Item akan tampil horizontal kanan ke kiri
+        - column : Item akan tampil horizontal atas ke bawah 
+        - column-reverse : Item akan tampil dari bawah ke atas    
+    -->
+
+    <!-- Wrapping -->
+    <div class="container">
+        <div class="wrap">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    <!-- Wrapping -->
+    <!-- Flex Wrap
+        -  -->
+
+        <!-- Aligment -->
+        <!-- 
+            - justify-content = Memindahkan elemen secara horizontal 
+            - align-items = Memindahkan elemen secara vertical
+
+            justify-content :
+            - start 
+            (default) : semua element
+            mulai dari kiri 
+            - center
+                semua element bakal pindah
+                ke tengah horizontal
+            - end
+                semua element kan pindah
+                ke kanan horizontal
+         -->
+        <div class="container">
+            <div class="area">
+                <div class="brand"></div>
+                <div class="search"></div>
+                <div class="login"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
