@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    font-family: 'Poppins';
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px #7e7e7e;
+    flex-wrap: wrap;
+    position: fixed;
+    background: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    /* 1em = 8px */
+}
+
+.list-item {
+    display: flex;
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    margin: 20px;
+    color: #7e7e7e;
+}
+
+.list-item a:hover {
+    transition: 0.5s;
+    color: #08c;
+    border-bottom: 3px #08c solid;
+    margin-bottom: 10px;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner{
+    width: 30%;
+    font-family: 'Nunito';
+}
+.banner p {
+    font-size: 1.2em;
+}
+
+.banner p b {
+    color: #08c;
+}
+
+.brand-image img {
+    width: 600px;
+}
+
+.subtitle{
+    font-size: 1em;
+    color: #7e7e7e;
+}
+
+.about{
+    font-family: 'Nunito';
+    width: 100vw;
+    height: 100vh;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-area{
+    width: 80%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: ;
+}
